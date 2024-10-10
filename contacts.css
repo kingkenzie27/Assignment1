@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(100, 100, 100);
+    color: aliceblue;
+}
+
+.text, .col{
+    padding-left: 20px;
+    padding-top: 20px;
+
+    text-align: left;
+}
+
+#message{
+    width: 250px;
+}
+
+.title{
+    font-size: large;
+    font-weight: 600;
+
+}
+
+footer{
+    padding: 10%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
