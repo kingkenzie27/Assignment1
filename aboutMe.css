@@ -1,7 +1,4 @@
-body{
-    background-color: rgb(100, 100, 100);
-    color: aliceblue;
-}
+
 
 .text{
     padding-bottom: 5%;
@@ -60,14 +57,26 @@ footer{
     .col{
         grid-template-columns: repeat(5, inmax(20px, 1fr) );
     }
+    body{
+        background-color: rgb(46, 12, 50);
+        color: aliceblue;
+    }
 }
 @media screen and (max-width: 600px) {
     .col{
         grid-template-columns: repeat(2, minmax(20px, 1fr));
     }
+    body{
+        background-color: rgb(100, 100, 100);
+        color: aliceblue;
+    }
 }        
 @media screen and (max-width: 480px) {
     .col{
         grid-template-columns: repeat(1, minmax(20px, 1fr));
+    }
+    body{
+        background-color: rgb(40, 40, 40);
+        color: aliceblue;
     }
 }
